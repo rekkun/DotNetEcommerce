@@ -2,7 +2,6 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Models;
-using Bcrypt;
 
 namespace Controller {
     [ApiController]
@@ -23,7 +22,7 @@ namespace Controller {
 
             var user = new User {
                 Username = request.Username,
-                Password = Bcrypt.Net.Bcrypt.HashPassword(request.Password),
+                Password = BCrypt.Net.BCrypt.HashPassword(request.Password),
                 FullName = request.FullName,
                 Phone = request.Phone,
                 Role = "NhanVien",
@@ -32,7 +31,7 @@ namespace Controller {
 
             _context.Users.Add(user);
             await _context.SaveChangesAsync(); // Sửa thành SaveChangesAsync
-            return CreatedAtAction(nameof(GetUser ), new { id = user.Id }, user); // Sửa cú pháp
+            return CreatedAtAction(nameof(GetUser), new { id = user.Id }, user); // Sửa cú pháp
         }
 
         [HttpGet("{id}")]
@@ -49,6 +48,6 @@ namespace Controller {
 public class CreateUserRequest {
     public string Username {get; set;}
     public string Password {get; set;}
-    public string Fullname {get; set;}
+    public string FullName {get; set;}
     public string Phone {get; set;}
 }
