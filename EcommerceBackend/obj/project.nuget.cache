@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "EpFe9a1zlwVcJw2Pws5y9gawzHqhf+Y1P5Q2PAjuzRP+QNLRvvaj5+4409asqIu3/JtVK6HdMUkkF93CJZdweA==",
+  "dgSpecHash": "IjUQObmdB/5qO0G5kkNcUylWgvFe8ztrfJ1FanX/aXl9Hbj+ia4kJFRHwPXYdiwUakGLJGUotTcUanDQkhqouA==",
   "success": true,
   "projectFilePath": "C:\\Users\\IT SUPPORTER\\Ecommerce\\EcommerceBackend\\EcommerceBackend.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
+    "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\bcrypt.net-next\\4.0.2\\bcrypt.net-next.4.0.2.nupkg.sha512",
     "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.12\\microsoft.aspnetcore.openapi.7.0.12.nupkg.sha512",
     "C:\\Users\\IT SUPPORTER\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
